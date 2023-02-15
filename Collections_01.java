@@ -6,6 +6,8 @@
 
 import java.util.Arrays;
 import java.util.Collection;
+//import Collection하면 Collection에 있는 모든 것들을 사용 가능하지만
+//import arraylist와 같이 딱 지정해서 내가 무엇을 쓸지 명시해주는 것이 좋음
 import java.util.Iterator;
 
 public class Collections_01 {
