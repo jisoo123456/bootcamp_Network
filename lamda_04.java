@@ -30,6 +30,11 @@ public class lamda_04 {
 
         //static math reference
         c = Math::abs;
+        //메소드 참조 표현식(람다 표현식에서만 사용 가능)
+        //왼쪽 객체의 오른쪽 메소드
+        //객체에서 특정 메소드를 호출하는 용도
+        //더블콜론은 람다의 간결한 버전
+        //람다식이 이미 존재하는 메소드와 동일한 기능이면 메소드 레퍼런스로 람다식을 대체
         System.out.println(c.calculate(-9.9));
 
         //lambda
