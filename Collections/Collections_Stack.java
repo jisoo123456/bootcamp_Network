@@ -1,3 +1,5 @@
+package Collections;
+
 import java.util.Stack;
 
 public class Collections_Stack {

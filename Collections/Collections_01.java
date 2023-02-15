@@ -1,4 +1,4 @@
-// [Collection]
+package Collections;// [Collection]
 // 배열에서의 원소 삽입의 성능은 낮음(하나하나 이동해야 하기 때문) -> linkedlist사용
 // -> 자바에서는 이처럼 linkedlist, stack들을 편리하게 사용하도록 collections 제공
 // List(ArrayList,j LinkedList, Vector, Stack), Queue(DelayQueue, PriorityQueue), Set(HashSet, TreeSet), Map(HashMap)-> 인터페이스
