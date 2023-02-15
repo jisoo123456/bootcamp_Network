@@ -1,17 +1,39 @@
 package network_lecture;
 
-class One{
-    private One() {
-    }
-    public static One produceOneInstance(){
-        return (new One());
-    }
-}
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 public class task {
     public static void main(String[] args) {
-        //One o = new One();  -> private이기 때문에 직접적으로 객체 생성x
-        One o1 = One.produceOneInstance();
-        One o2 = One.produceOneInstance();
+        List<String> names = List.of("홍길동", "배장화", "임꺽정", "연흥부", "김선달", "황진이");
+
+        Stream<String> st1 = names.stream();
+        st1.filter(n -> n.charAt(0) < '이').forEach(p -> System.out.print(p + " "));
+        System.out.println();
+
+        Stream<String> st2 = names.stream();
+        st2.sorted().forEach(p -> System.out.print(p + " "));
+        System.out.println();
+
+        //isPresent() 메소드 = true, false 체크
+        //ifPresent() 메소드 = 값을 가지고 있는지 확인 후 예외처리
+        Stream<String> st3 = names.stream();
+        System.out.println(st3.findFirst());
+
+        Stream<String> st4 = names.stream();
+        st4.findFirst().ifPresent(System.out::println);
+
+        enum Gender {남, 여}
+
+        List<Integer> ages = List.of(25, 20, 29, 28, 32, 18);
+        //List<String> genders = List.of(Gender.남, Gender.여, Gender.남, Gender.남, Gender.남, Gender.여);
+
+
+
+
     }
 
 }
