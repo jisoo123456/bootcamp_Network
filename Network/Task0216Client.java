@@ -21,7 +21,7 @@ public class Task0216Client {
             System.out.println(answer);
 
         } catch (IOException e) {
-            System.out.println("접속 실패!");
+            System.out.println("접속 실패!!");
         }
     }
 }

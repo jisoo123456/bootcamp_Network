@@ -16,7 +16,7 @@ public class Task0216Server {
             ) {
             pw.println(new Date().toString());
             } catch (IOException ex) {
-            System.out.println("접속 실패!");
+            System.out.println("접속 실패!!");
         }
     }
 }
