@@ -1,5 +1,5 @@
 package Interface;
-
+//interface는 추상메소드는 오버라이딩 할 수 있으면 얼마든지 만들기 가능(표준 밑에 있는 다섯가지는 하나만 가능(람다코드 사용하기 때문에))
 import java.util.function.*;
 
 // 함수적 인터페이스

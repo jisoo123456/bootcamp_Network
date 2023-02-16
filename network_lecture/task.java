@@ -22,11 +22,13 @@ public class task {
         //ifPresent() 메소드 = 값을 가지고 있는지 확인 후 예외처리
         Stream<String> st3 = names.stream();
         System.out.println(st3.findFirst());
+        //findFirst에서 null값이 나오는 걸 방지하기 위해 optional을 붙여서 출력
 
         Stream<String> st4 = names.stream();
         st4.findFirst().ifPresent(System.out::println);
+        //System.out.println(st4.findFirst().get());
 
-        enum Gender {남, 여}
+        enum Gender {남, 여};
 
         List<Integer> ages = List.of(25, 20, 29, 28, 32, 18);
         //List<String> genders = List.of(Gender.남, Gender.여, Gender.남, Gender.남, Gender.남, Gender.여);

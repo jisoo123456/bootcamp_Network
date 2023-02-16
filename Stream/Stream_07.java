@@ -10,8 +10,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 
-//파일로부터 스트림 객체 생성
-public class Streams_07 {
+public class Stream_07 {
     public static void main(String[] args) {
 
 
