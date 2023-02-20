@@ -36,7 +36,7 @@
 -Stream
 : 불필요한 for문을 사용하지 않을 수 있고, 람다식을 활용할 수 있어서 코드를 직관적이게 처리가능
 
-[Day33]
+[Day23]
 - Compositon vs Aggregation (보는 관점에 따라 다름)
 -> Compositon: 전체와 부분이 강력한 연관 관계o, 전체와 부분이 같은 생명주기o
 -> Aggregation: 전체와 부분의 연관관계를 맺지만 동일한 생명주기x
@@ -50,5 +50,9 @@
 3) LSP: 리스코프 치환 원칙(Liskov substitution principle)
 4) ISP: 인터페이스 분리 원칙(Interface segregation principle)
 5) DIP: 의존관계 역전 원칙(Dependency inversion principle)
+
+[Day25]
+encode: 0과 1로 바꿔줌
+decode: 인간이 볼 수 있게 0과 1을 다시 바꿔줌
  */
 
